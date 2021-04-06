@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+  <title>intermediate course</title>
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container-sub">
+      <div class="header__inner">
+        <div class="header__left">
+          <p class="header__logo">Cresta Design</p>
+        </div>
+        <div class="header__right">
+          <nav class="header__nav">
+            <ul>
+              <li><a href="#">Concept</a></li>
+              <li><a href="#">Servise</a></li>
+              <li><a href="#">Works</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+
+          <div class="header__hnav">
+            <div class="hamburger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <nav class="globalMenuSp">
+              <ul id="menu">
+                <li><a href="#">Concept</a></li>
+                <li><a href="#">Servise</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="ctop">
+      <div class="container-sub">
+        <h1 class="ctop__logo">Contact</h1>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container-cont">
+        <div class="content__outer">
+          <div class="content__top">
+            <p class="content__hed">お問い合わせ内容</p>
+            <div class="content__checkbox">
+              <input type="checkbox" id="01-A" name="checkbox01" checked="checked">
+              <label for="01-A" class="checkbox01">資料請求</label>
+              <input type="checkbox" id="01-B" name="checkbox01">
+              <label for="01-B" class="checkbox01">お電話でのご相談を希望</label>
+              <input type="checkbox" id="01-C" name="checkbox01">
+              <label for="01-C" class="checkbox01">申し込み</label>
+            </div>
+          </div>
+          <div class="content__bottom">
+            <form action="#" method="post">
+              <p>担当者名<br>
+            	<input type="text" name="name" class="content__form"></p>
+              <p>電話番号<br>
+            	<input type="text" name="tell" class="content__form"></p>
+              <p>メールアドレス<br>
+              <input type="text" name="mail" class="content__form"></p>
+              <p>その他</p>
+              <textarea name="" id=""></textarea>
+              <div class="submit__wrapper">
+                <input type="submit" value="Submit" class="submit">
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__copy">©︎cresta.design all rights reserved</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
